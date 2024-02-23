@@ -1,0 +1,42 @@
+.flex-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-box {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22rem;
+  margin-top: 1rem;
+  border: 3px solid #eeeeee;
+}
+.flex-box h4 {
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+}
+.flex-box p {
+  position: relative;
+  left: 5rem;
+}
+.flex-box:hover {
+  background: rgb(26 27 221 / 75%);
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .flex-boxes {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-box {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .flex-box p {
+    font-size: 12px;
+    left: 4rem;
+  }
+  .flex-box h4 {
+    font-size: 18px;
+  }
+}

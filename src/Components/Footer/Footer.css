@@ -1,0 +1,21 @@
+.containers{
+    background: rgb(51, 51, 49);
+    color: #fff;
+    width: 93.5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+.list-border li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+li{
+    text-decoration: none;
+}
+@media only screen and (max-width:768px){
+    .containers{
+   
+        width: 95%;
+    }
+}

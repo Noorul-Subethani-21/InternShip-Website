@@ -1,0 +1,38 @@
+.wrapper {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+.box-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 22rem;
+  margin-top: 1rem;
+}
+.box-1 h4 {
+  position: relative;
+  left: 1rem;
+  top: 2rem;
+}
+.box-1 p {
+  position: relative;
+  top: 2rem;
+  left: 3rem;
+}
+.btn {
+  position: relative;
+  left: 8rem;
+  align-items: flex-end;
+  background: rgb(26 27 221 / 75%);
+  color: #fff;
+  padding: 0.5rem;
+}
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    width: 17rem;
+    margin-left: 1rem;
+  }
+  .box-1 {
+    width: 20rem;
+  }
+}

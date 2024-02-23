@@ -1,0 +1,32 @@
+/* Add this to your CSS or styling file */
+.transparent-hover-btn {
+    background-color:#2980b9 ;
+     border-radius: 5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transparent-hover-btn:hover {
+    background-color: #2980b9; /* Adjust the transparency as needed */
+  }
+  
+  .smooth-hover-btn {
+    transition: background-color 0.3s ease;
+  }
+  
+  .smooth-hover-btn:hover {
+    background-color: #2980b9;
+    border-radius: 5rem; /* Change the color to your preferred hover color */
+  }
+  
+  @media only screen and (max-width:768px){
+   .transparent-hover-btn:hover{
+      padding: 1rem;
+      width: 10rem;
+      color: #fff;
+    }
+    .smooth-hover-btn:hover{
+      padding: 1rem;
+      width: 10rem;
+      color: #fff;
+    }
+  }
